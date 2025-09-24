@@ -976,8 +976,10 @@ class TextEditorWidget(QWidget):
         import os
         import re
 
+        # Get the project root directory
+        project_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         # Path to the punctuation translation file
-        json_path = os.path.join("transcribe", "cmd_transcribe.json")
+        json_path = os.path.join(project_root, "transcribe", "cmd_transcribe.json")
 
         try:
             # Load the punctuation translation table

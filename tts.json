@@ -1,0 +1,558 @@
+{
+  "piper_tts_voices": {
+    "source": "https://huggingface.co/rhasspy/piper-voices/raw/main/voices.json",
+    "description": "Complete database of all available Piper TTS voices for English (US)",
+    "language_code": "en_US",
+    "voices": {
+      "amy": {
+        "nickname": "amy",
+        "full_name": "en_US-amy-medium",
+        "display_name": "Amy",
+        "quality": "medium",
+        "gender": "female",
+        "description": "Clear female voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/en_US-amy-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/amy/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-amy-medium.onnx",
+        "config_file": "en_US-amy-medium.onnx.json"
+      },
+      "arctic": {
+        "nickname": "arctic",
+        "full_name": "en_US-arctic-medium",
+        "display_name": "Arctic",
+        "quality": "medium",
+        "gender": "neutral",
+        "description": "Clear neutral voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/arctic/medium/en_US-arctic-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/arctic/medium/en_US-arctic-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/arctic/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-arctic-medium.onnx",
+        "config_file": "en_US-arctic-medium.onnx.json"
+      },
+      "bryce": {
+        "nickname": "bryce",
+        "full_name": "en_US-bryce-medium",
+        "display_name": "Bryce",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/bryce/medium/en_US-bryce-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/bryce/medium/en_US-bryce-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/bryce/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-bryce-medium.onnx",
+        "config_file": "en_US-bryce-medium.onnx.json"
+      },
+      "danny": {
+        "nickname": "danny",
+        "full_name": "en_US-danny-low",
+        "display_name": "Danny",
+        "quality": "low",
+        "gender": "male",
+        "description": "Male voice, low quality (faster processing)",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/danny/low/en_US-danny-low.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/danny/low/en_US-danny-low.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/danny/low/MODEL_CARD"
+        ],
+        "model_file": "en_US-danny-low.onnx",
+        "config_file": "en_US-danny-low.onnx.json"
+      },
+      "hfc_female": {
+        "nickname": "hfc_female",
+        "full_name": "en_US-hfc_female-medium",
+        "display_name": "HFC Female",
+        "quality": "medium",
+        "gender": "female",
+        "description": "Female voice from HFC dataset, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_female/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-hfc_female-medium.onnx",
+        "config_file": "en_US-hfc_female-medium.onnx.json"
+      },
+      "hfc_male": {
+        "nickname": "hfc_male",
+        "full_name": "en_US-hfc_male-medium",
+        "display_name": "HFC Male",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Male voice from HFC dataset, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_male/medium/en_US-hfc_male-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_male/medium/en_US-hfc_male-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/hfc_male/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-hfc_male-medium.onnx",
+        "config_file": "en_US-hfc_male-medium.onnx.json"
+      },
+      "joe": {
+        "nickname": "joe",
+        "full_name": "en_US-joe-medium",
+        "display_name": "Joe",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/joe/medium/en_US-joe-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/joe/medium/en_US-joe-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/joe/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-joe-medium.onnx",
+        "config_file": "en_US-joe-medium.onnx.json"
+      },
+      "john": {
+        "nickname": "john",
+        "full_name": "en_US-john-medium",
+        "display_name": "John",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/john/medium/en_US-john-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/john/medium/en_US-john-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/john/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-john-medium.onnx",
+        "config_file": "en_US-john-medium.onnx.json"
+      },
+      "kathleen": {
+        "nickname": "kathleen",
+        "full_name": "en_US-kathleen-low",
+        "display_name": "Kathleen",
+        "quality": "low",
+        "gender": "female",
+        "description": "Female voice, low quality (faster processing)",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kathleen/low/en_US-kathleen-low.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kathleen/low/en_US-kathleen-low.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kathleen/low/MODEL_CARD"
+        ],
+        "model_file": "en_US-kathleen-low.onnx",
+        "config_file": "en_US-kathleen-low.onnx.json"
+      },
+      "kristin": {
+        "nickname": "kristin",
+        "full_name": "en_US-kristin-medium",
+        "display_name": "Kristin",
+        "quality": "medium",
+        "gender": "female",
+        "description": "Clear female voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kristin/medium/en_US-kristin-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kristin/medium/en_US-kristin-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kristin/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-kristin-medium.onnx",
+        "config_file": "en_US-kristin-medium.onnx.json"
+      },
+      "kusal": {
+        "nickname": "kusal",
+        "full_name": "en_US-kusal-medium",
+        "display_name": "Kusal",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kusal/medium/en_US-kusal-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kusal/medium/en_US-kusal-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/kusal/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-kusal-medium.onnx",
+        "config_file": "en_US-kusal-medium.onnx.json"
+      },
+      "l2arctic": {
+        "nickname": "l2arctic",
+        "full_name": "en_US-l2arctic-medium",
+        "display_name": "L2 Arctic",
+        "quality": "medium",
+        "gender": "neutral",
+        "description": "Neutral voice from L2 Arctic dataset, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/l2arctic/medium/en_US-l2arctic-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/l2arctic/medium/en_US-l2arctic-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/l2arctic/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-l2arctic-medium.onnx",
+        "config_file": "en_US-l2arctic-medium.onnx.json"
+      },
+      "lessac": {
+        "nickname": "lessac",
+        "full_name": "en_US-lessac-high",
+        "display_name": "Lessac",
+        "quality": "high",
+        "gender": "female",
+        "description": "High-quality female voice from Lessac dataset",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high/en_US-lessac-high.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high/en_US-lessac-high.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/high/MODEL_CARD"
+        ],
+        "model_file": "en_US-lessac-high.onnx",
+        "config_file": "en_US-lessac-high.onnx.json"
+      },
+      "libritts": {
+        "nickname": "libritts",
+        "full_name": "en_US-libritts-high",
+        "display_name": "LibriTTS",
+        "quality": "high",
+        "gender": "neutral",
+        "description": "High-quality neutral voice from LibriTTS dataset",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/high/en_US-libritts-high.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/high/en_US-libritts-high.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts/high/MODEL_CARD"
+        ],
+        "model_file": "en_US-libritts-high.onnx",
+        "config_file": "en_US-libritts-high.onnx.json"
+      },
+      "libritts_r": {
+        "nickname": "libritts_r",
+        "full_name": "en_US-libritts_r-medium",
+        "display_name": "LibriTTS-R",
+        "quality": "medium",
+        "gender": "neutral",
+        "description": "Neutral voice from LibriTTS-R dataset, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts_r/medium/en_US-libritts_r-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts_r/medium/en_US-libritts_r-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts_r/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-libritts_r-medium.onnx",
+        "config_file": "en_US-libritts_r-medium.onnx.json"
+      },
+      "ljspeech": {
+        "nickname": "ljspeech",
+        "full_name": "en_US-ljspeech-high",
+        "display_name": "LJ Speech",
+        "quality": "high",
+        "gender": "female",
+        "description": "High-quality female voice from LJ Speech dataset",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ljspeech/high/MODEL_CARD"
+        ],
+        "model_file": "en_US-ljspeech-high.onnx",
+        "config_file": "en_US-ljspeech-high.onnx.json"
+      },
+      "norman": {
+        "nickname": "norman",
+        "full_name": "en_US-norman-medium",
+        "display_name": "Norman",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/en_US-norman-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/norman/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-norman-medium.onnx",
+        "config_file": "en_US-norman-medium.onnx.json"
+      },
+      "reza_ibrahim": {
+        "nickname": "reza_ibrahim",
+        "full_name": "en_US-reza_ibrahim-medium",
+        "display_name": "Reza Ibrahim",
+        "quality": "medium",
+        "gender": "male",
+        "description": "Clear male voice, medium quality",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/reza_ibrahim/medium/MODEL_CARD"
+        ],
+        "model_file": "en_US-reza_ibrahim-medium.onnx",
+        "config_file": "en_US-reza_ibrahim-medium.onnx.json"
+      },
+      "ryan": {
+        "nickname": "ryan",
+        "full_name": "en_US-ryan-high",
+        "display_name": "Ryan",
+        "quality": "high",
+        "gender": "male",
+        "description": "High-quality male voice",
+        "files": [
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high.onnx",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/en_US-ryan-high.onnx.json",
+          "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/ryan/high/MODEL_CARD"
+        ],
+        "model_file": "en_US-ryan-high.onnx",
+        "config_file": "en_US-ryan-high.onnx.json"
+      }
+    },
+    "quality_levels": {
+      "low": "Faster processing, lower quality audio",
+      "medium": "Balanced quality and speed",
+      "high": "Best quality audio, slower processing",
+      "x_high": "Highest quality available"
+    },
+    "installation_info": {
+      "base_url": "https://huggingface.co/rhasspy/piper-voices/resolve/main/",
+      "required_files": ["*.onnx", "*.onnx.json", "MODEL_CARD"],
+      "install_directory": "tts-models/piper/{nickname}-{quality}/",
+      "engine": "piper"
+    }
+  },
+  "kokoro_tts_voices": {
+    "engine": "kokoro",
+    "voices": {
+      "af_alloy": {
+        "nickname": "af_alloy",
+        "display_name": "Alloy (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_aoede": {
+        "nickname": "af_aoede",
+        "display_name": "Aoede (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_bella": {
+        "nickname": "af_bella",
+        "display_name": "Bella (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_heart": {
+        "nickname": "af_heart",
+        "display_name": "Heart (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_jadzia": {
+        "nickname": "af_jadzia",
+        "display_name": "Jadzia (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_jessica": {
+        "nickname": "af_jessica",
+        "display_name": "Jessica (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_kore": {
+        "nickname": "af_kore",
+        "display_name": "Kore (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_nicole": {
+        "nickname": "af_nicole",
+        "display_name": "Nicole (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_nova": {
+        "nickname": "af_nova",
+        "display_name": "Nova (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_river": {
+        "nickname": "af_river",
+        "display_name": "River (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_sarah": {
+        "nickname": "af_sarah",
+        "display_name": "Sarah (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_sky": {
+        "nickname": "af_sky",
+        "display_name": "Sky (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0": {
+        "nickname": "af_v0",
+        "display_name": "V0 (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0bella": {
+        "nickname": "af_v0bella",
+        "display_name": "V0Bella (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0irulan": {
+        "nickname": "af_v0irulan",
+        "display_name": "V0Irulan (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0nicole": {
+        "nickname": "af_v0nicole",
+        "display_name": "V0Nicole (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0sarah": {
+        "nickname": "af_v0sarah",
+        "display_name": "V0Sarah (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "af_v0sky": {
+        "nickname": "af_v0sky",
+        "display_name": "V0Sky (US English Female)",
+        "language_code": "en_US",
+        "gender": "female"
+      },
+      "am_adam": {
+        "nickname": "am_adam",
+        "display_name": "Adam (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_echo": {
+        "nickname": "am_echo",
+        "display_name": "Echo (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_eric": {
+        "nickname": "am_eric",
+        "display_name": "Eric (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_fenrir": {
+        "nickname": "am_fenrir",
+        "display_name": "Fenrir (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_liam": {
+        "nickname": "am_liam",
+        "display_name": "Liam (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_michael": {
+        "nickname": "am_michael",
+        "display_name": "Michael (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_onyx": {
+        "nickname": "am_onyx",
+        "display_name": "Onyx (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_puck": {
+        "nickname": "am_puck",
+        "display_name": "Puck (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_santa": {
+        "nickname": "am_santa",
+        "display_name": "Santa (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_v0adam": {
+        "nickname": "am_v0adam",
+        "display_name": "V0Adam (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_v0gurney": {
+        "nickname": "am_v0gurney",
+        "display_name": "V0Gurney (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "am_v0michael": {
+        "nickname": "am_v0michael",
+        "display_name": "V0Michael (US English Male)",
+        "language_code": "en_US",
+        "gender": "male"
+      },
+      "bf_alice": {
+        "nickname": "bf_alice",
+        "display_name": "Alice (UK English Female)",
+        "language_code": "en_GB",
+        "gender": "female"
+      },
+      "bf_emma": {
+        "nickname": "bf_emma",
+        "display_name": "Emma (UK English Female)",
+        "language_code": "en_GB",
+        "gender": "female"
+      },
+      "bf_lily": {
+        "nickname": "bf_lily",
+        "display_name": "Lily (UK English Female)",
+        "language_code": "en_GB",
+        "gender": "female"
+      },
+      "bf_v0emma": {
+        "nickname": "bf_v0emma",
+        "display_name": "V0Emma (UK English Female)",
+        "language_code": "en_GB",
+        "gender": "female"
+      },
+      "bf_v0isabella": {
+        "nickname": "bf_v0isabella",
+        "display_name": "V0Isabella (UK English Female)",
+        "language_code": "en_GB",
+        "gender": "female"
+      },
+      "bm_daniel": {
+        "nickname": "bm_daniel",
+        "display_name": "Daniel (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      },
+      "bm_fable": {
+        "nickname": "bm_fable",
+        "display_name": "Fable (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      },
+      "bm_george": {
+        "nickname": "bm_george",
+        "display_name": "George (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      },
+      "bm_lewis": {
+        "nickname": "bm_lewis",
+        "display_name": "Lewis (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      },
+      "bm_v0george": {
+        "nickname": "bm_v0george",
+        "display_name": "V0George (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      },
+      "bm_v0lewis": {
+        "nickname": "bm_v0lewis",
+        "display_name": "V0Lewis (UK English Male)",
+        "language_code": "en_GB",
+        "gender": "male"
+      }
+    }
+  }
+}
+
